@@ -165,8 +165,6 @@ class RoutesWordpressPlugin
             ), 401);
         }
 
-        return $user;
-
         $get = file_get_contents('php://input');
         $g = json_decode($get, true);
 
